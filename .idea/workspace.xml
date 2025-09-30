@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="333d39ad-9d3c-431e-8b86-384e146385b1" name="Changes" comment="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output">
+    <list default="true" id="333d39ad-9d3c-431e-8b86-384e146385b1" name="Changes" comment="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +85,40 @@
       <option name="project" value="LOCAL" />
       <updated>1759260305394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="* adjusted CellPhone() curly braces so other methods exist inside as main blocks&#10;* fixed setSerialNumber() to no longer be a return method">
+      <option name="closed" value="true" />
+      <created>1759260576375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759260576375</updated>
+    </task>
+    <task id="LOCAL-00005" summary="* added remaining getters and setters for other data types">
+      <option name="closed" value="true" />
+      <created>1759260961390</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759260961390</updated>
+    </task>
+    <task id="LOCAL-00006" summary="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor">
+      <option name="closed" value="true" />
+      <created>1759261354924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759261354924</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* first commit&#10;* initialized main() in CellPhoneApplication&#10;* created CellPhone class" />
     <MESSAGE value="* created private variables in CellPhone Class&#10;* created getter() for serialNumber&#10;* created parameterless Constructor&#10;* created CellPhone object in CellPhoneApplication" />
     <MESSAGE value="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output" />
-    <option name="LAST_COMMIT_MESSAGE" value="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output" />
+    <MESSAGE value="* adjusted CellPhone() curly braces so other methods exist inside as main blocks&#10;* fixed setSerialNumber() to no longer be a return method" />
+    <MESSAGE value="* added remaining getters and setters for other data types" />
+    <MESSAGE value="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor" />
   </component>
 </project>

@@ -66,5 +66,5 @@ public class CellPhone {
 
     public void phoneInformation() {
         System.out.printf("%s is the owner of the %s with the Serial Number of %d", owner, model, serialNumber);
-    }
+    } // Display Message for phoneInformation
 }
