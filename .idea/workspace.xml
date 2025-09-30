@@ -4,17 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="333d39ad-9d3c-431e-8b86-384e146385b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="333d39ad-9d3c-431e-8b86-384e146385b1" name="Changes" comment="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "robertCheeto"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/robertCheeto/CellPhoneApplication",
+    "accountId": "9a28861d-3046-441c-b3b9-71f0fc00ab2f"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -26,9 +45,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CellPhoneApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Student/pluralsight/workbook-2/CellPhoneApplication/src/main/java/com/pluralsight/Main.java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,6 +61,37 @@
       <option name="presentableId" value="Default" />
       <updated>1759258887908</updated>
     </task>
+    <task id="LOCAL-00001" summary="* first commit&#10;* initialized main() in CellPhoneApplication&#10;* created CellPhone class">
+      <option name="closed" value="true" />
+      <created>1759259346266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759259346266</updated>
+    </task>
+    <task id="LOCAL-00002" summary="* created private variables in CellPhone Class&#10;* created getter() for serialNumber&#10;* created parameterless Constructor&#10;* created CellPhone object in CellPhoneApplication">
+      <option name="closed" value="true" />
+      <created>1759259874255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759259874255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output">
+      <option name="closed" value="true" />
+      <created>1759260305394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759260305394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* first commit&#10;* initialized main() in CellPhoneApplication&#10;* created CellPhone class" />
+    <MESSAGE value="* created private variables in CellPhone Class&#10;* created getter() for serialNumber&#10;* created parameterless Constructor&#10;* created CellPhone object in CellPhoneApplication" />
+    <MESSAGE value="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output" />
+    <option name="LAST_COMMIT_MESSAGE" value="* created setter for serialNumber&#10;* created a phoneInformation() for phone information to be output" />
   </component>
 </project>
