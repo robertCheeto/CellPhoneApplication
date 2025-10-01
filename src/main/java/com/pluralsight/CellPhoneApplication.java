@@ -8,8 +8,9 @@ public class CellPhoneApplication {
 
         CellPhone phone = new CellPhone(123456789, "iPhone 17", "Xfinity Mobile", "412-999-6789", "Daniel Spezialetti");
         phone.phoneInformation();
+        System.out.println();
 
-        System.out.println("Enter in your phone information: ");
+        System.out.println("\n*** Enter in the second phone's information ***");
         System.out.print("Enter the Serial Number: ");
         int serialNumber = keyboard.nextInt();
         keyboard.nextLine();
@@ -27,9 +28,12 @@ public class CellPhoneApplication {
         String owner = keyboard.nextLine();
 
         CellPhone phone2 = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
+        System.out.println();
         phone2.phoneInformation();
+        System.out.println("\n\n");
 
         display(phone);
+        System.out.println("\n");
         display(phone2);
 
     } // end of main
@@ -37,15 +41,9 @@ public class CellPhoneApplication {
     public static void display(CellPhone phone) {
         Scanner keyboard = new Scanner(System.in);
 
-//        CellPhone phone = new CellPhone(123456789, "iPhone 17", "Xfinity Mobile", "412-999-6789", "Daniel Spezialetti\n");
-//        phone.phoneInformation();
-//        CellPhone phone3 = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
-//        phone3.phoneInformation();
-
-        System.out.println("Please enter a phone number you want to dial: ");
+        System.out.print("Please enter a phone number you want to dial: ");
         String callNumber = keyboard.nextLine();
-        phone.dial(owner, callNumber);
-        //phone3.dial(phone3.getPhoneNumber());
+        phone.dial();
     }
 
 }

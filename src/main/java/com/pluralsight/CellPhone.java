@@ -69,8 +69,7 @@ public class CellPhone {
     } // Display Message for phoneInformation
 
     public void dial() {
-        //phone.dial("412-867-5309");
-        System.out.printf("%s's phone is calling %s", owner, getPhoneNumber());
+        System.out.printf("%s's phone is calling %s", owner, phoneNumber);
     }
 
 }
