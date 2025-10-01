@@ -2,11 +2,10 @@ package com.pluralsight;
 
 public class CellPhone {
     private int serialNumber;
-    private String model;
-    private String carrier;
-    private String phoneNumber;
-    private String owner;
-
+    private String model, carrier, phoneNumber, owner;
+//    private String carrier;
+//    private String phoneNumber;
+//    private String owner;
 
     public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
         this.serialNumber = serialNumber;
@@ -68,8 +67,8 @@ public class CellPhone {
         System.out.printf("%s is the owner of the %s with the Serial Number of %d", owner, model, serialNumber);
     } // Display Message for phoneInformation
 
-    public void dial() {
-        System.out.printf("%s's phone is calling %s", owner, phoneNumber);
+    public void dial(String phoneNumber) {
+        System.out.printf("%s's phone is calling %s", getOwner(), phoneNumber);
     }
 
 }

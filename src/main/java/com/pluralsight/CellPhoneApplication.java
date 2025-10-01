@@ -32,18 +32,21 @@ public class CellPhoneApplication {
         phone2.phoneInformation();
         System.out.println("\n\n");
 
-        display(phone);
+        //display(phone);
+        phone.dial(phone2.getPhoneNumber());
         System.out.println("\n");
-        display(phone2);
 
-    } // end of main
+    } // end of main()
 
     public static void display(CellPhone phone) {
         Scanner keyboard = new Scanner(System.in);
+        CellPhone phone3 = new CellPhone();
 
         System.out.print("Please enter a phone number you want to dial: ");
-        String callNumber = keyboard.nextLine();
-        phone.dial();
-    }
+        String phoneNumber = keyboard.nextLine();
+        phone3.setPhoneNumber();
+        phone.dial(phone3.getPhoneNumber());
+        //phone3.dial(phone.getPhoneNumber());
+    } // end of display()
 
-}
+} // end of CellPhoneApplication Class
