@@ -67,4 +67,10 @@ public class CellPhone {
     public void phoneInformation() {
         System.out.printf("%s is the owner of the %s with the Serial Number of %d", owner, model, serialNumber);
     } // Display Message for phoneInformation
+
+    public void dial() {
+        //phone.dial("412-867-5309");
+        System.out.printf("%s's phone is calling %s", owner, getPhoneNumber());
+    }
+
 }

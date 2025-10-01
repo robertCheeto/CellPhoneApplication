@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="333d39ad-9d3c-431e-8b86-384e146385b1" name="Changes" comment="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor">
+    <list default="true" id="333d39ad-9d3c-431e-8b86-384e146385b1" name="Changes" comment="* formatting change to sout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhoneApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,36 +24,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "robertCheeto"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;robertCheeto&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/robertCheeto/CellPhoneApplication",
-    "accountId": "9a28861d-3046-441c-b3b9-71f0fc00ab2f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/robertCheeto/CellPhoneApplication&quot;,
+    &quot;accountId&quot;: &quot;9a28861d-3046-441c-b3b9-71f0fc00ab2f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="33QouxvfYSmI4tUMw1W1uhPIlxO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CellPhoneApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Student/pluralsight/workbook-2/CellPhoneApplication/src/main/java/com/pluralsight/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CellPhoneApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Student/pluralsight/workbook-2/CellPhoneApplication/src/main/java/com/pluralsight/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759261354924</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="* formatting change to sout">
+      <option name="closed" value="true" />
+      <created>1759262135396</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759262135396</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +129,7 @@
     <MESSAGE value="* adjusted CellPhone() curly braces so other methods exist inside as main blocks&#10;* fixed setSerialNumber() to no longer be a return method" />
     <MESSAGE value="* added remaining getters and setters for other data types" />
     <MESSAGE value="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="* created a new CellPhone object, phone2 and added the ability for the user to input that information and add it to the CellPhone constructor" />
+    <MESSAGE value="* formatting change to sout" />
+    <option name="LAST_COMMIT_MESSAGE" value="* formatting change to sout" />
   </component>
 </project>
